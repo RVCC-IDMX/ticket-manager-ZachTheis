@@ -1,0 +1,37 @@
+{
+  "name": "ticket-manager-zachtheis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RVCC-IDMX/ticket-manager-ZachTheis.git"
+  },
+  "keywords": [],
+  "author": "Zach Theis <G00286554@stu.raritanval.edu> (https://github.com/ZachTheis)",
+  "license": "RVCC",
+  "bugs": {
+    "url": "https://github.com/RVCC-IDMX/ticket-manager-ZachTheis/issues"
+  },
+  "homepage": "https://github.com/RVCC-IDMX/ticket-manager-ZachTheis#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.25.2",
+    "prettier": "^2.4.1",
+    "nodemon": "^2.0.14"
+  },
+  "dependencies": {
+    "eslint-config-prettier": "^8.3.0"
+  },
+  "nodemonConfig": {
+    "delay": 3000
+  },
+  "events": {
+    "start": "cls || clear"
+  }
+}
