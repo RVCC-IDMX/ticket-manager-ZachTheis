@@ -7,3 +7,11 @@ ticketManager.on('buy', () => {
 });
 
 ticketManager.buy('test@email.com', 20);
+ticketManager.buy('test@email.com', 20);
+
+ticketManager.once('buy', () => {
+  console.log('This is only called once');
+});
+
+ticketManager.buy('test@email.com', 20);
+ticketManager.buy('test@email.com', 20);
